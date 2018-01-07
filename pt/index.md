@@ -3,14 +3,14 @@ layout: default
 title: Tudo o que você precisa saber sobre a mineração Bitcoin
 description: Tudo o que você precisa saber sobre a mineração Bitcoin
 toc:
-  hwc: Mining Hardware Comparison
-  wibm: What is Bitcoin Mining?
-  what-is-blockchain: What is the Blockchain?
-  wipow: What is Proof of Work?
-  md: What is Bitcoin Mining Difficulty?
-  tcdp: The Computationally-Difficult Problem
+  hwc: Comparação entre Hardwares para Mineração
+  wibm: O que  Mineração de Bitcoins?
+  what-is-blockchain: O que é Blockchain?
+  wipow: O que é Prova de Trabalho?
+  md: Qual a dificuldade de minerar Bitcoins?
+  tcdp: O problema de difícil computação
   difficulty: The Bitcoin Network Difficulty Metric
-  bw: The Block Reward
+  bw: A Block-recompensa
 ---
 
 <center>
@@ -22,45 +22,45 @@ toc:
 <div class="home-grid">
 	<a href="/getting-started/" class="section">
 		<img src="/images/icons/mining.png"> 
-		<div class="section-title">New to Mining?</div> 
-		<div class="section-view">Get started ›</div> 
+		<div class="section-title">Novo em mineração?</div> 
+		<div class="section-view">Vamos começar ›</div> 
 	</a>
 	<a href="/bitcoin-mining-hardware/" class="section">
 		<img src="/images/icons/mining2.png"> 
-		<div class="section-title">Mining Hardware</div> 
-		<div class="section-view">Learn More ›</div> 
+		<div class="section-title">Hardware de Mineração</div> 
+		<div class="section-view">Aprenda mais ›</div> 
 	</a>
 	<a href="/best-bitcoin-cloud-mining-contract-reviews/" class="section">
 		<img src="/images/icons/cloud.png"> 
-		<div class="section-title">Cloud Mining</div> 
-		<div class="section-view">Learn More ›</div> 
+		<div class="section-title">Mineração em nuvem</div> 
+		<div class="section-view">Aprenda mais ›</div> 
 	</a>
 </div>
 
 <img class="icon-home" alt="bitcoin mining" src="/images/icons/icon-big-bitcoinfrom.png">
-<h2>How Bitcoin Mining Works</h2>
-<p>Where do bitcoins come from? With paper money, a government decides when to print and distribute money. Bitcoin doesn't have a central government.</p>
+<h2>Como a mineração de Bitcoins trabalha</h2>
+<p>De onde vêm os bitcoins? Com dinheiro em papel, um governo decide quando imprimir e distribuir dinheiro. Bitcoin não tem um governo central.</p>
 
-<p>With Bitcoin, miners use <a href="/bitcoin-mining-software/">special software</a> to solve math problems and are issued a certain number of bitcoins in exchange. This provides a smart way to issue the currency and also creates an incentive for more people to mine.</p>
+<p>With Bitcoin, mineradores usam um <a href="/bitcoin-mining-software/">software especial </a> para resolver problemas de matemática e receber um determinado número de bitcoins em troca. Isto provê uma forma inteligente para emitir a moeda e também criar um incentivo para pessoas minararem.</p>
 
 <img class="icon-home" alt="bitcoin is secure" src="/images/icons/icon-big-secure.png">
-<h2>Bitcoin is Secure</h2>
+<h2>Bitcoin é seguro</h2>
 
-<p>Bitcoin miners help keep the Bitcoin network secure by approving transactions. Mining is an important and integral part of Bitcoin that ensures fairness while keeping the Bitcoin network stable, safe and secure.</p>
+<p>Mineradores de Bitcoin miners ajudam a manter a rede Bitcoin segura aprovando transações. A mineração é a parte importante que assegura a lisura das transações e mantém a rede Bitcoins estável e segura.</p>
 
 <img class="icon-home" alt="bitcoin is secure" src="/images/icons/icon-big-links.png">
 <h2>Links</h2>
 <ul>
-	<li><a href="https://www.weusecoins.com/" target="_blank">We Use Coins</a> - Learn all about crypto-currency.<br></li>
-	<li><a href="https://www.reddit.com/r/Bitcoin/" target="_blank">Bitcoin News</a> - Where the Bitcoin community gets news.<br></li>
-	<li><a href="http://www.bitcoin.kn">Bitcoin Knowledge Podcast</a> - Interviews with the top people in the Bitcoin world</li>
+	<li><a href="https://www.weusecoins.com/" target="_blank">We Use Coins</a> - Aprenda sobre criptomoedas.<br></li>
+	<li><a href="https://www.reddit.com/r/Bitcoin/" target="_blank">Bitcoin News</a> - Onde a comunidade Bitcoin encontra novidades.<br></li>
+	<li><a href="http://www.bitcoin.kn">Bitcoin Knowledge Podcast</a> - Intrevistas com as pessoas mais capacitadas do Mundo Bitcoin.</li>
 </ul>
 
 <hr id="hwc" style="width: 100%; margin: 20px 0; color: #eee;" />
 
-<h2>Bitcoin Mining Hardware Comparison</h2>
+<h2>Comparação entre Hardwares para Mineração de Bitcoin</h2>
 
-<p>Currently, based on <b>(1)</b> price per hash and <b>(2)</b> electrical efficiency the best Bitcoin miner options are:</p>
+<p>Atualmente, baseado no <b>(1)</b> preço por hash e <b>(2)</b> eficiência elétrica as melhores opções para mineração deBitcoin miner são:</p>
 
 <div class="hardware-comparison">
 {% for miner in site.data.hardware %}
@@ -73,22 +73,22 @@ toc:
 <hr style="width: 100%; margin: 20px 0; color: #eee;" />
 <h2 id="wibm">What is Bitcoin Mining?</h2>
 <center><img src="/images/what-is-bitcoin-mining.png" width="700" height="auto">
-<a href="/images/what-is-bitcoin-mining-high-resolution.png" target="_blank">Visualize and Download High-Resolution Infographic</a></center>
+<a href="/images/what-is-bitcoin-mining-high-resolution.png" target="_blank">Visualize e Baixe o Infográfico em Alta Resolução</a></center>
 
 {% include page-toc.html %}
 
-<p>Bitcoin mining is the process of adding transaction records to Bitcoin's public ledger of past transactions or <b>blockchain</b>. This ledger of past transactions is called the block chain as it is a chain of blocks. The block chain serves to confirm transactions to the rest of the network as having taken place.
-<p>Bitcoin nodes use the <b>block chain</b> to distinguish legitimate Bitcoin transactions from attempts to re-spend coins that have already been spent elsewhere.
-<h3 id="what-is-blockchain">What is the Blockchain?</h3>
+<p>Mineração de Bitcoin é o processo de adicionar registros de transação ao livro contábil público do Bitcoin que contém todas as transações passadas ou <b>blockchain</b>. Este livro contábil de transsações realizadas é chamado de blockchain por ser como um encadeamento de blocos. A cadeia de blocos serve para confirmar transações para o resto da rede tome conhecimento.
+<p>Nós Bitcoin usam a <b>cadeia de blocos</b> para distinguir legítimas transações de tentativas de re-gastar dinheiro que já tenha sido gasto em outra ocasião (problema do gasto duplo).
+<h3 id="what-is-blockchain">O que é Blockchain?</h3>
 <center><iframe width="700" height="394" src="https://www.youtube.com/embed/YIVAluSL9SU" frameborder="0" allowfullscreen></iframe></center>
-<p><a href="http://bitcoinminer.com/">Bitcoin mining</a> is intentionally designed to be resource-intensive and difficult so that the number of blocks found each day by miners remains steady. Individual blocks must contain a <a href="/what-is-proof-of-work/">proof of work</a> to be considered valid. This proof of work is verified by other Bitcoin nodes each time they receive a block. Bitcoin uses the <a href="/what-is-hashcash/">hashcash</a> proof-of-work function.
-<p>The primary purpose of mining is to allow Bitcoin nodes to reach a secure, tamper-resistant consensus. Mining is also the mechanism used to introduce Bitcoins into the system: Miners are paid any transaction fees as well as a "subsidy" of newly created coins.
-<p>This both serves the purpose of disseminating new coins in a decentralized manner as well as motivating people to provide security for the system.
-<p>Bitcoin mining is so called because it resembles the mining of other commodities: it requires exertion and it slowly makes new currency available at a rate that resembles the rate at which commodities like gold are mined from the ground.
-<h2 id="wipow">What is Proof of Work?</h2>
+<p><a href="http://bitcoinminer.com/">Mineração de Bitcoin </a> é intencionalmente projetada para ser intensiva em recursos e difícil, de modo que o número de blocos encontrados todos os dias pelos mineiros permaneça estável. Blocos individuais  Individual blocks devem conter uma <a href="/what-is-proof-of-work/">prova de trabalho</a> para serem considerados válidos. Esta prova de trabalho é verificada por outros nós da rede Bitcoin cada vez que eles recebem um bloco. Bitcoin utiliza a função prova de trabalho <a href="/what-is-hashcash/">hashcash</a>.
+<p>O propósito primordial de minerar é propocionar condições para que os nós Bitcoin alcancem um consenso em termos de segurança e anti-adulteração. Mineração é também o mecanismo usado para colocar Bitcoins em circulação: Mineradores recebem todas as taxas de transação, bem como um subsídio de novas moedas.
+<p>Isto serve como propósito de disseminação de novas moedas de uma maneira descentralizada e também como motivação para pessoas proverem a segurança do sistema.
+<p>A mineração de Bitcoin é assim chamada porque se assemelha à mineração de outras comodities: requer esforço e lentamente torna novas moedas disponíveis ao sistema a uma taxa que se assemelha à taxa em que mercadorias como o ouro são extraídas do solo.
+<h2 id="wipow">O que é prova de trabalho?</h2>
 <center><img src="/images/what-is-proof-of-work.png" width="700" height="auto">
-<a href="/images/what-is-proof-of-work-high-resolution.png" target="_blank">Visualize and Download High-Resolution Infographic</a></center></center>
-<p>A <a href="/what-is-proof-of-work/">proof of work</a> is a piece of data which was difficult (costly, time-consuming) to produce so as to satisfy certain requirements. It must be trivial to check whether data satisfies said requirements.
+<a href="/images/what-is-proof-of-work-high-resolution.png" target="_blank">Visualize e Baixe o Infográfico em Alta Resolução</a></center></center>
+<p>Uma <a href="/what-is-proof-of-work/">prova de trabalho</a> é um pedaço de dado que foi difícil de calcular (em termos de custo e tempo computacional) a fim de satisfazer certos requisitos. Deve ser trivial verificar se os dados atendem aos referidos requisitos.
 <p>Producing a proof of work can be a random process with low probability, so that a lot of trial and error is required on average before a valid proof of work is generated. Bitcoin uses the Hashcash proof of work.
 <h2 id="md">What is Bitcoin Mining Difficulty?</h2>
 <center><img src="/images/what-is-bitcoin-mining-difficulty.png" width="700" height="auto">
